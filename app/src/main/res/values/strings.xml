@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Idmji</string>
+    <string name="nombre">Nombre</string>
+    <string name="contenido">Contenido</string>
+    <string name="contenido2">Contenido2</string>
+    <string name="coro">Coro</string>
+    <string name="btn">Guardar </string>
+    <string name="id">id </string>
+    <string name="registrar">Add</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="title_activity_nueva_interfaz">NuevaInterfaz</string>
+
 </resources>

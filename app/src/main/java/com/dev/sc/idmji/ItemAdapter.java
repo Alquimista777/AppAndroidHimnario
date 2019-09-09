@@ -17,10 +17,10 @@ public class ItemAdapter extends BaseAdapter {
     private Context context;
 
 
-    public ItemAdapter(Context context, ArrayList<Himno>listaH){
+    public ItemAdapter( Context context, ArrayList<Himno> listaH ){
 
-        this.context=context;
-        this.listaHimnos=listaH;
+        this.context = context;
+        this.listaHimnos = listaH;
     }
 
     @Override
@@ -40,19 +40,20 @@ public class ItemAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        if(convertView==null){
-            LayoutInflater layoutInflater=(LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-            convertView= layoutInflater.inflate(R.layout.item,null);
-        }
-        TextView nombreHimno=  (TextView)convertView.findViewById(R.id.nombreHimno);
-        TextView id= (TextView)convertView.findViewById(R.id.id);
-        //   TextView descripcion= (TextView)convertView.findViewById(R.id.description);
 
-        nombreHimno.setText(listaHimnos.get(position).getNombreHimno());
-        //descripcion.setText(listaHimnos.get(position).getDescripcion());
+        if(convertView == null){
+            LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            convertView = layoutInflater.inflate(R.layout.item,null);
+        }
+
+        TextView id = convertView.findViewById(R.id.itemId);
+        TextView nombreHimno = convertView.findViewById(R.id.itemNombreHimno);
+
         id.setText(listaHimnos.get(position).getId());
+        nombreHimno.setText(listaHimnos.get(position).getNombreHimno());
 
         return convertView;
-
     }
 }
+
+

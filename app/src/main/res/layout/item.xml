@@ -4,13 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    </LinearLayout>
-
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,7 +13,7 @@
         android:padding="5dp">
 
         <TextView
-            android:id="@+id/id"
+            android:id="@+id/itemId"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:paddingTop="10dp"
@@ -29,14 +22,13 @@
             />
 
         <TextView
-            android:id="@+id/nombreHimno"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/itemNombreHimno"
+            android:layout_width="298dp"
+            android:layout_height="57dp"
             android:layout_marginLeft="56dp"
             android:text="Nombre"
             android:textAppearance="?attr/textAppearanceListItem"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
     </RelativeLayout>
 

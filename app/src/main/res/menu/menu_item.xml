@@ -6,5 +6,8 @@
         android:orderInCategory="100"
         android:title="Buscador.."
         android:icon="@drawable/ic_action_action_search"
-        app:showAsAction="always"/>
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+
 </menu>

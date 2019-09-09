@@ -3,6 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#46e43a</color>
-    <color name="nomeAcuerdo">#ff009688</color>
+    <color name="nomeAcuerdo">#0f1a9b</color>
     <color name="colorgray">#ededed</color>
+    <color name="blanco">#ffffff</color>
+    <color name="colorStatusBar">#1c2a79</color>
 </resources>
